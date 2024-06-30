@@ -91,7 +91,8 @@ body{
     background-color: var(--cor-hover);
 }
 .apresentacao__imagem{
-    width: 50%;
+    width: 40%;
+    border-radius: 10px;
 }
 .rodape{
     color: var(--cor-primaria);
@@ -102,7 +103,15 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
-
+.paragrafo_links_sobre{
+    color: var(--cor-terciaria);  /*Tira a cor do link*/
+    text-decoration: none;
+    font-size: 20px;
+}
+.paragrafo_links_sobre:hover{
+   font-size: inherit;
+}
+   
 @media (max-width: 1200px) {
     .cabecalho{
          padding: 10%;  
